@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">unite4_kararvedonguyapilari</string>
+    <string name="app_name">karar ve döngü yapıları ünite-4</string>
+    <string name="uyg1">uygulama/1 (100 den büyük)</string>
+    <string name="uyg2_name">uygulama2 (hangisi büyük)</string>
+    <string name="uyg3_name">uygulama-3</string>
+    <string name="uyg4_name">uygulama-4</string>
+    <string name="uyg5_name">uygulama-5</string>
+    <string name="uyg6_name">Uygulama-6</string>
+    <string name="uyg7_name">uygulama-7</string>
+    <string name="uyg8_name">uygulama-8</string>
+    <string name="uyg9_name">uygulama-9</string>
+    <string name="uygt10_name">uyguylama-10</string>
 </resources>

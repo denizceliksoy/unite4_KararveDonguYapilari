@@ -6,13 +6,93 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btnUyg4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/uyg4_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg3"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg3" />
+
+    <Button
+        android:id="@+id/btnUyg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uyg5_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg4"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg4" />
+
+    <Button
+        android:id="@+id/btnUyg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uyg6_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg5"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg5" />
+
+    <Button
+        android:id="@+id/btnUyg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/uyg2_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg1"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg1" />
+
+    <Button
+        android:id="@+id/btnUyg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uyg3_name"
+        app:layout_constraintEnd_toEndOf="@+id/btnUyg9"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg9"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg2" />
+
+    <Button
+        android:id="@+id/btnUyg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/uyg1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUyg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/uyg7_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg6"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg6" />
+
+    <Button
+        android:id="@+id/btnUyg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uyg9_name"
+        app:layout_constraintBottom_toTopOf="@+id/btnUyg10"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg10" />
+
+    <Button
+        android:id="@+id/btnUyg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="124dp"
+        android:text="@string/uygt10_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg8" />
+
+    <Button
+        android:id="@+id/btnUyg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/uyg8_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg9"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
